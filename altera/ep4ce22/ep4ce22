@@ -1,0 +1,12 @@
+instruction length 10
+register DIR 32
+register USERCODE 32
+register BSR 732
+register BYPASS 1
+instruction HIGHZ 0000001011 BYPASS
+instruction CLAMP 0000001010 BYPASS
+instruction USERCODE 0000000111 USERCODE
+instruction IDCODE 0000000110 DIR
+instruction SAMPLE/PRELOAD 0000000101 BSR
+instruction EXTEST 0000001111 BSR
+instruction BYPASS 1111111111 BYPASS
